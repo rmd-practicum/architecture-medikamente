@@ -1,0 +1,56 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="drlJVk4HnQ-CHNXZ8czU">
+    <mxGraphModel dx="1981" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Am5p2DcI-9X9Cjdp3yGh-15" edge="1" parent="1" source="Am5p2DcI-9X9Cjdp3yGh-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;" target="Am5p2DcI-9X9Cjdp3yGh-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Am5p2DcI-9X9Cjdp3yGh-1" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="Кассир" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Am5p2DcI-9X9Cjdp3yGh-2" edge="1" parent="1" source="Am5p2DcI-9X9Cjdp3yGh-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;" target="Am5p2DcI-9X9Cjdp3yGh-13">
+          <mxGeometry relative="1" x="-0.3529" as="geometry">
+            <mxPoint x="480" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Am5p2DcI-9X9Cjdp3yGh-3" connectable="0" parent="Am5p2DcI-9X9Cjdp3yGh-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Информация&lt;div&gt;о платеже&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3529" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Am5p2DcI-9X9Cjdp3yGh-4" parent="1" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" value="Прием платежа" vertex="1">
+          <mxGeometry height="100" width="100" x="270" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Am5p2DcI-9X9Cjdp3yGh-5" edge="1" parent="1" source="Am5p2DcI-9X9Cjdp3yGh-1" style="endArrow=classic;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;jumpStyle=arc;curved=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Am5p2DcI-9X9Cjdp3yGh-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="480" y="370" as="sourcePoint" />
+            <mxPoint x="530" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Am5p2DcI-9X9Cjdp3yGh-6" connectable="0" parent="Am5p2DcI-9X9Cjdp3yGh-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontSize,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelPadding;spacing=2;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" value="Информация&lt;div&gt;о платеже&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Am5p2DcI-9X9Cjdp3yGh-7" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;" target="Am5p2DcI-9X9Cjdp3yGh-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="80" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Am5p2DcI-9X9Cjdp3yGh-8" connectable="0" parent="Am5p2DcI-9X9Cjdp3yGh-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Персональные&lt;div&gt;данные&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Am5p2DcI-9X9Cjdp3yGh-13" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" value="Excel-журнал&lt;div&gt;учета платежей&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Am5p2DcI-9X9Cjdp3yGh-14" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" value="1С:Бухгалтерия предприятия" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
