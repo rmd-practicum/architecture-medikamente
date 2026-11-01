@@ -10,7 +10,7 @@
         <mxCell id="YQE3VCED8ibci5ELh7nz-2" edge="1" parent="1" source="YQE3VCED8ibci5ELh7nz-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;" target="YQE3VCED8ibci5ELh7nz-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YQE3VCED8ibci5ELh7nz-3" connectable="0" parent="YQE3VCED8ibci5ELh7nz-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Персональные&lt;div&gt;данные&lt;/div&gt;" vertex="1">
+        <mxCell id="YQE3VCED8ibci5ELh7nz-3" connectable="0" parent="YQE3VCED8ibci5ELh7nz-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="&lt;div&gt;Медицинские&lt;/div&gt;&lt;div&gt;данные&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -24,7 +24,7 @@
             <mxPoint x="530" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YQE3VCED8ibci5ELh7nz-6" connectable="0" parent="YQE3VCED8ibci5ELh7nz-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontSize,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelPadding;spacing=2;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" value="Персональные&lt;div&gt;данные&lt;/div&gt;" vertex="1">
+        <mxCell id="YQE3VCED8ibci5ELh7nz-6" connectable="0" parent="YQE3VCED8ibci5ELh7nz-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontSize,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelPadding;spacing=2;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" value="Медицинские&lt;br&gt;&lt;div&gt;данные&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -32,7 +32,7 @@
         <mxCell id="YQE3VCED8ibci5ELh7nz-7" edge="1" parent="1" source="YQE3VCED8ibci5ELh7nz-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;" target="YQE3VCED8ibci5ELh7nz-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YQE3VCED8ibci5ELh7nz-8" connectable="0" parent="YQE3VCED8ibci5ELh7nz-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Персональные&lt;div&gt;данные&lt;/div&gt;" vertex="1">
+        <mxCell id="YQE3VCED8ibci5ELh7nz-8" connectable="0" parent="YQE3VCED8ibci5ELh7nz-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Медицинские&lt;br&gt;&lt;div&gt;данные&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
