@@ -1,6 +1,6 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="xRSvR6lJ4xhNEimUdqhr">
-    <mxGraphModel dx="1981" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1262" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,17 +43,41 @@
         <mxCell id="hR7ll6MT3tkGMNqRDJOE-13" edge="1" parent="1" source="hR7ll6MT3tkGMNqRDJOE-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;" target="hR7ll6MT3tkGMNqRDJOE-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iIkETGevaoHErHbAEA33-2" edge="1" parent="1" source="hR7ll6MT3tkGMNqRDJOE-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;" target="iIkETGevaoHErHbAEA33-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ugBrspURNC8ZmnUiT4iU-6" connectable="0" parent="hR7ll6MT3tkGMNqRDJOE-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Персональные&lt;div&gt;данные&lt;/div&gt;&lt;div&gt;[PII] TLS &amp;gt;=1.2&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1429" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="hR7ll6MT3tkGMNqRDJOE-9" parent="1" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" value="Сохранение&lt;div&gt;данных&lt;/div&gt;" vertex="1">
+        <mxCell id="hR7ll6MT3tkGMNqRDJOE-9" parent="1" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" value="Внесение&lt;div&gt;данных в МИС&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="100" x="710" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="hR7ll6MT3tkGMNqRDJOE-12" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" value="Excel-журнал&lt;div&gt;пациентов&lt;/div&gt;&lt;div&gt;[PII] FDE&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="560" y="200" as="geometry" />
+        <mxCell id="ugBrspURNC8ZmnUiT4iU-5" edge="1" parent="1" source="hR7ll6MT3tkGMNqRDJOE-12" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;" target="ugBrspURNC8ZmnUiT4iU-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iIkETGevaoHErHbAEA33-1" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" value="Файлы данных пациентов&lt;div&gt;[PHI] FDE + обезличивание&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="840" y="200" as="geometry" />
+        <mxCell id="ugBrspURNC8ZmnUiT4iU-7" connectable="0" parent="ugBrspURNC8ZmnUiT4iU-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Персональные&lt;div&gt;данные&lt;/div&gt;&lt;div&gt;[PII] TLS&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hR7ll6MT3tkGMNqRDJOE-12" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" value="PostgreSQL&lt;br&gt;&lt;div&gt;[PII] FDE, шифрование БД&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ugBrspURNC8ZmnUiT4iU-1" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" value="OLAP&lt;div&gt;[internal] FDE, шифрование БД&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="ugBrspURNC8ZmnUiT4iU-2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;" target="ugBrspURNC8ZmnUiT4iU-1">
+          <mxGeometry relative="1" x="0.5417" as="geometry">
+            <mxPoint x="764.5" y="390" as="sourcePoint" />
+            <mxPoint x="764.5" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ugBrspURNC8ZmnUiT4iU-3" connectable="0" parent="ugBrspURNC8ZmnUiT4iU-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Обезличенные&lt;div&gt;аналитические данные&lt;/div&gt;&lt;div&gt;[internal] TLS&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.5667" as="geometry">
+            <mxPoint y="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ugBrspURNC8ZmnUiT4iU-4" parent="1" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" value="Обезличивание и трансформация" vertex="1">
+          <mxGeometry height="100" width="100" x="710" y="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
